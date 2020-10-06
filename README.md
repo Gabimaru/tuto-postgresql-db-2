@@ -4,11 +4,11 @@
 
 #### - Préparation de la base de données dvdrental -
 
-```psql -d postgres -U db_user
-postgres=> CREATE DATABASE dvdrental;
-postgres=> \quit
-pg_restore -U db_user -d dvdrental ./dvdrental.tar
-psql -d dvdrental -U db_user```
+```psql -d postgres -U db_user```
+```postgres=> CREATE DATABASE dvdrental;```
+```postgres=> \quit```
+```pg_restore -U db_user -d dvdrental ./dvdrental.tar```
+```psql -d dvdrental -U db_user```
 
 
 ## - Partie 2 -
